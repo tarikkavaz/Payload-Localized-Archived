@@ -1,0 +1,13 @@
+build
+dist / media
+node_modules
+.DS_Store
+.env
+.next
+.vercel
+.pnpm-store
+
+# Payload default media upload directory
+public/media/
+dataDump/
+.vscode/settings.json

@@ -1,0 +1,31 @@
+services:
+  payload:
+    build: 
+      context: .
+      target: runtime
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./public/media:/home/node/app/public/media
+      - pnpm_store:/home/node/.pnpm-store
+      - node_modules:/home/node/app/node_modules
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    restart: unless-stopped
+    volumes:
+      - mongodb_data:/data/db
+    command:
+      - --storageEngine=wiredTiger
+    logging:
+      driver: none
+
+volumes:
+  mongodb_data:
+  pnpm_store:
+  node_modules:
