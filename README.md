@@ -17,4 +17,7 @@ It is a modified version of the [Payload CMS Localization Example](https://githu
 To seed the database with a few pages and posts you can click the 'seed database' link from the admin panel.
 The seed contains English and Turkish pages and posts. 
 
-> NOTICE: Read the [README-init.md](README-init.md) file for more information.
+## Add Locale
+
+To add a locale to the app, edit the file `src/i18n/localization.ts` .
+Add your locale code and name as a label. The file is self-explanatory.
