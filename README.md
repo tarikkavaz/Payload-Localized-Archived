@@ -21,3 +21,7 @@ The seed contains English and Turkish pages and posts.
 
 To add a locale to the app, edit the file `src/i18n/localization.ts` .
 Add your locale code and name as a label. The file is self-explanatory.
+
+## Difference
+
+You can see the difference between the initial and current codebase in the [difference.md](./difference.md) file.
