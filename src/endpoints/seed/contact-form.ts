@@ -38,10 +38,10 @@ export const contactForm = (locale: 'en' | 'tr'): Partial<Form> => ({
   createdAt: '2023-01-12T21:47:41.374Z',
   emails: [
     {
-      emailFrom: '"Contact Form" \u003Cform@tarikkavaz.com\u003E',
+      emailFrom: '"Contact Form" \u003Cform@yourdomain.com\u003E',
       emailTo: '{{email}}',
-      replyTo: '"Tarik Kavaz" \u003Chello@tarikkavaz.com\u003E',
-      bcc: '"Contact Form" \u003Chello@tarikkavaz.com\u003E',
+      replyTo: '"Tarik Kavaz" \u003Chello@yourdomain.com\u003E',
+      bcc: '"Contact Form" \u003Chello@yourdomain.com\u003E',
       message: {
         root: {
           type: 'root',
