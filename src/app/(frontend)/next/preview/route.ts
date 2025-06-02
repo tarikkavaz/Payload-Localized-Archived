@@ -69,7 +69,7 @@ export async function GET(
       const docs = await payload.find({
         collection: collection,
         draft: true,
-        locale: path.split('/')[0] as TypedLocale,
+        locale: path.split('/')[1] as TypedLocale,
         where: {
           slug: {
             equals: slug,
