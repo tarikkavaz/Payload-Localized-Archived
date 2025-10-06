@@ -1,8 +1,13 @@
 # Payload CMS Multi-Language Website Boilerplate
 
+> [!IMPORTANT]
+>
+> This repo is archived and will not be developed any further. I'm working on this [Boilerplate](https://github.com/tarikkavaz/Payload-Localized-Boilerplate) instead.
+
+
+
 This is a website boilerplate for [Payload CMS](https://payloadcms.com/) with localization.
 It is a modified version of the [Payload CMS Localization Example](https://github.com/payloadcms/payload/tree/main/examples/localization)
-
 
 ## Setup
 
